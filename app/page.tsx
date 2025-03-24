@@ -9,11 +9,6 @@ interface FrontmatterData {
   tag?: string;
 }
 
-interface Frontmatter {
-  slug: string;
-  fm_data: FrontmatterData;
-}
-
 async function getMarkdownFM() {
   const files = fs.readdirSync("md");
   const frontmatter = files.map((fileName: string) => {
