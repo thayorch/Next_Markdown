@@ -9,7 +9,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="flex flex-col min-h-screen">
+        <div className="flex flex-col min-h-screen ">
           <header className="bg-gray-900 mb-8 py-4">
             <div className="container mx-auto flex justify-center text-white">
               <Link href="/">
